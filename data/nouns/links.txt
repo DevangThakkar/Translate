@@ -1,0 +1,59 @@
+austronesian - 52
+mi	mg	ms	haw	jw	sm	id
+10	9	7	2	3	15	6
+
+niger congo - 62
+st	ig	ny	sw	xh	yo	zu	sn
+10	6	9	12	11	2	7	5
+
+Austroasiatic - 15
+vi	km
+1	14
+
+Krai-Dai - 9
+lo
+9
+
+Celtic - 4
+ga	gd
+1	3
+
+Sino Tibetan - 12
+zhC	zhT	hmn
+5	5	2
+
+Afroasiatic - 20
+so	am	ha
+12	3	5
+
+Slavic - 16
+bs	be	sk	sr	mk	uk	ru	sl
+3	2	2	5	1	1	1	1
+
+Baltic - 19
+lt	lv
+12	7
+
+Turkic - 14
+az	uz	kk
+2	7	5
+
+Iranian - 15
+tg	ps
+7	8
+
+Dravidian - 4
+ml	kn
+1	3
+
+Indic - 42
+sd	ne	pa	bn	ur	hi	mr	gu
+3	9	9	5	4	2	6	4
+
+Romance - 6
+es	gl	ca
+2	2	2
+
+Haitian Creole - 4
+ht
+4

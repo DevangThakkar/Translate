@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+body {
+  font: 10px sans-serif;
+}
+svg text{
+  fill:grey;
+  text-anchor:middle;
+  font-size:18px;
+}
+svg .values text{
+  pointer-events:none;
+  stroke-width: 0.5px;
+}
+.groups:hover{
+  cursor:pointer;
+  font-weight:bold;
+}
+</style>
+<body>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="http://vizjs.org/viz.v1.1.0.min.js"></script>
+<script>
+var data = [
+ ["US","Canada",343] ,["US","China",27]
+,["US","India",3],["US","UK",212]
+,["Canada","China",9],["Canada","India",2]
+,["Canada","UK",86],["Canada","US",842]
+,["UK","Canada",607],["UK","China",9]
+,["UK","India",5],["UK","US",715]
+,["China","Canada",711],["China","India",7]
+,["China","UK",183],["China","US",2104]
+,["India","Canada",621],["India","China",9]
+,["India","UK",777],["India","US",1969]
+];
+var colors = {
+   "US":"rgb(193,161,111)"
+  ,"Canada":"rgb(115,146,17)"
+  ,"UK":"rgb(234,193,36)"
+  ,"China":"rgb(217,36,5)"
+  ,"India":"rgb(53,99,235)"
+};
+var height=500, width=1050;
+var svg = d3.select("body").append("svg").attr("width",width).attr("height",height);
+var sortOrder =["UK","China","US","India","Canada"];
+function sort(a,b){ return d3.ascending(sortOrder.indexOf(a),sortOrder.indexOf(b)); }
+var chLeft = viz.ch()
+      .data(data)
+      .fill(function(d){ return colors[d];});
+var chRight = viz.ch()
+      .data(data)
+      .fill(function(d){ return colors[d];})
+      .sort(sort);
+//create g elements and create the chord diagrams in it
+svg.append("g").attr("transform", "translate(300,250)").call(chLeft);
+svg.append("g").attr("transform", "translate(750,250)").call(chRight);
+// adjust the bl.ocks frame dimension.
+d3.select(self.frameElement).style("height", height+"px").style("width", width+"px");
+</script>

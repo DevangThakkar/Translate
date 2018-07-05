@@ -1,0 +1,31 @@
+debuggroup summary 0.29s welcome to circos v0.68-pre1 7 Apr 2015 on Perl 5.010000
+debuggroup summary 0.30s current working directory /home/martink/www/htdocs/tableviewer/tmp/wscpxgf
+debuggroup summary 0.30s command /home/martink/work/circos/svn-tags/circos-tableviewer//bin/circos -param random_string=wscpxgf -conf /home/martink/www/htdocs/tableviewer/tmp/wscpxgf/etc/circos.conf
+debuggroup summary 0.30s guessing configuration file
+debuggroup summary 0.30s found conf file /home/martink/www/htdocs/tableviewer/tmp/wscpxgf/etc/circos.conf
+debuggroup summary 0.95s debug will appear for these features: output,summary
+debuggroup summary 0.95s bitmap output image results/circos-table-wscpxgf-large.png
+debuggroup summary 0.95s SVG output image results/circos-table-wscpxgf-large.svg
+debuggroup summary 0.96s parsing karyotype and organizing ideograms
+debuggroup summary 0.98s karyotype has 59 chromosomes of total size 383
+debuggroup summary 1.03s applying global and local scaling
+debuggroup summary 1.08s allocating image, colors and brushes
+debuggroup summary 2.41s drawing 59 ideograms of total size 383
+debuggroup summary 2.41s drawing highlights and ideograms
+debuggroup summary 2.42s found conf file /home/martink/work/circos/svn-tags/circos-0.68-pre1/bin/../etc/tracks/highlight.bg.conf
+debuggroup summary 2.42s found conf file /home/martink/work/circos/svn-tags/circos-0.68-pre1/bin/../etc/tracks/highlight.bg.conf
+debuggroup summary 2.42s found conf file /home/martink/work/circos/svn-tags/circos-0.68-pre1/bin/../etc/tracks/highlight.bg.conf
+debuggroup summary 2.42s found conf file /home/martink/work/circos/svn-tags/circos-0.68-pre1/bin/../etc/tracks/highlight.bg.conf
+debuggroup summary 2.42s found conf file /home/martink/work/circos/svn-tags/circos-0.68-pre1/bin/../etc/tracks/highlight.bg.conf
+debuggroup summary 2.43s process track_0 highlight /home/martink/www/htdocs/tableviewer/tmp/wscpxgf/data/row.txt
+debuggroup summary 3.82s process track_1 highlight /home/martink/www/htdocs/tableviewer/tmp/wscpxgf/data/col.txt
+debuggroup summary 5.01s process track_2 highlight /home/martink/www/htdocs/tableviewer/tmp/wscpxgf/data/all.txt
+debuggroup summary 5.56s process track_3 highlight /home/martink/www/htdocs/tableviewer/tmp/wscpxgf/data/cap.col.txt
+debuggroup summary 5.59s process track_4 highlight /home/martink/www/htdocs/tableviewer/tmp/wscpxgf/data/cap.row.txt
+debuggroup summary 18.68s found conf file /home/martink/work/circos/svn-tags/circos-0.68-pre1/bin/../etc/tracks/link.conf
+debuggroup summary 18.68s process flow link /home/martink/www/htdocs/tableviewer/tmp/wscpxgf/data/cells.txt
+debuggroup summary 18.76s drawing link flow z 0
+debuggroup summary 19.61s found conf file /home/martink/work/circos/svn-tags/circos-0.68-pre1/bin/../etc/tracks/text.conf
+debuggroup output 19.61s generating output
+debuggroup output 19.94s created PNG image results/circos-table-wscpxgf-large.png (1449 kb)
+debuggroup output 19.95s created SVG image results/circos-table-wscpxgf-large.svg (1934 kb)
