@@ -50,6 +50,6 @@ for word in en:
 	fname = "../data/nouns/chains/chain_" + lang + ".csv"
 	with open(fname, "a") as out:
 		for link in chain:
-			out.write(link + ", ")
+			out.write(link + "; ")
 		out.write("\n")
 	chain = []
