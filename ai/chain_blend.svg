@@ -1015,111 +1015,111 @@
 <circle id="l1000" cx="590.9" cy="360.04" r="5.5" opacity=".4"/>
 </g>
 
-<text id="language" x="373.25" y="662" fill="#FFFF99" font-family="'Roboto'" font-size="34" stroke="none" stroke-miterlimit="10">Language</text>
+<!-- <text id="language" x="373.25" y="662" fill="#FFFF99" font-family="'Roboto'" font-size="34" stroke="none" stroke-miterlimit="10">Language</text> -->
 
 <g fill="#ffb" stroke="#ffb" stroke-miterlimit="10" stroke-width=".5">
-<circle id="nav1" cx="87.486" cy="48.024" r="2.5"/>
-<circle id="nav2" cx="97.486" cy="48.024" r="2.5"/>
-<circle id="nav3" cx="107.486" cy="48.024" r="2.5"/>
-<circle id="nav4" cx="117.486" cy="48.024" r="2.5"/>
-<circle id="nav5" cx="127.486" cy="48.024" r="2.5"/>
-<circle id="nav6" cx="137.486" cy="48.024" r="2.5"/>
-<circle id="nav7" cx="147.486" cy="48.024" r="2.5"/>
-<circle id="nav8" cx="157.486" cy="48.024" r="2.5"/>
-<circle id="nav9" cx="167.486" cy="48.024" r="2.5"/>
-<circle id="nav10" cx="177.486" cy="48.024" r="2.5"/>
-<circle id="nav11" cx="187.486" cy="48.024" r="2.5"/>
-<circle id="nav12" cx="197.486" cy="48.024" r="2.5"/>
-<circle id="nav13" cx="207.486" cy="48.024" r="2.5"/>
-<circle id="nav14" cx="217.486" cy="48.024" r="2.5"/>
-<circle id="nav15" cx="227.486" cy="48.024" r="2.5"/>
-<circle id="nav16" cx="237.486" cy="48.024" r="2.5"/>
-<circle id="nav17" cx="247.486" cy="48.024" r="2.5"/>
-<circle id="nav18" cx="257.486" cy="48.024" r="2.5"/>
-<circle id="nav19" cx="267.486" cy="48.024" r="2.5"/>
-<circle id="nav20" cx="277.486" cy="48.024" r="2.5"/>
-<circle id="nav21" cx="287.486" cy="48.024" r="2.5"/>
-<circle id="nav22" cx="297.486" cy="48.024" r="2.5"/>
-<circle id="nav23" cx="307.486" cy="48.024" r="2.5"/>
-<circle id="nav24" cx="317.486" cy="48.024" r="2.5"/>
-<circle id="nav25" cx="327.486" cy="48.024" r="2.5"/>
-<circle id="nav26" cx="337.486" cy="48.024" r="2.5"/>
-<circle id="nav27" cx="347.486" cy="48.024" r="2.5"/>
-<circle id="nav28" cx="357.486" cy="48.024" r="2.5"/>
-<circle id="nav29" cx="367.486" cy="48.024" r="2.5"/>
-<circle id="nav30" cx="377.486" cy="48.024" r="2.5"/>
-<circle id="nav31" cx="387.486" cy="48.024" r="2.5"/>
-<circle id="nav32" cx="397.486" cy="48.024" r="2.5"/>
-<circle id="nav33" cx="407.486" cy="48.024" r="2.5"/>
-<circle id="nav34" cx="417.486" cy="48.024" r="2.5"/>
-<circle id="nav35" cx="427.486" cy="48.024" r="2.5"/>
-<circle id="nav36" cx="437.486" cy="48.024" r="2.5"/>
-<circle id="nav37" cx="447.486" cy="48.024" r="2.5"/>
-<circle id="nav38" cx="457.486" cy="48.024" r="2.5"/>
-<circle id="nav39" cx="467.486" cy="48.024" r="2.5"/>
-<circle id="nav40" cx="477.486" cy="48.024" r="2.5"/>
-<circle id="nav41" cx="487.486" cy="48.024" r="2.5"/>
-<circle id="nav42" cx="497.486" cy="48.024" r="2.5"/>
-<circle id="nav43" cx="507.486" cy="48.024" r="2.5"/>
-<circle id="nav44" cx="517.486" cy="48.024" r="2.5"/>
-<circle id="nav45" cx="527.486" cy="48.024" r="2.5"/>
-<circle id="nav46" cx="537.486" cy="48.024" r="2.5"/>
-<circle id="nav47" cx="547.486" cy="48.024" r="2.5"/>
-<circle id="nav48" cx="557.486" cy="48.024" r="2.5"/>
-<circle id="nav49" cx="567.486" cy="48.024" r="2.5"/>
-<circle id="nav50" cx="577.486" cy="48.024" r="2.5"/>
-<circle id="nav51" cx="587.486" cy="48.024" r="2.5"/>
-<circle id="nav52" cx="597.486" cy="48.024" r="2.5"/>
-<circle id="nav53" cx="87.486" cy="58.024" r="2.5"/>
-<circle id="nav54" cx="97.486" cy="58.024" r="2.5"/>
-<circle id="nav55" cx="107.486" cy="58.024" r="2.5"/>
-<circle id="nav56" cx="117.486" cy="58.024" r="2.5"/>
-<circle id="nav57" cx="127.486" cy="58.024" r="2.5"/>
-<circle id="nav58" cx="137.486" cy="58.024" r="2.5"/>
-<circle id="nav59" cx="147.486" cy="58.024" r="2.5"/>
-<circle id="nav60" cx="157.486" cy="58.024" r="2.5"/>
-<circle id="nav61" cx="167.486" cy="58.024" r="2.5"/>
-<circle id="nav62" cx="177.486" cy="58.024" r="2.5"/>
-<circle id="nav63" cx="187.486" cy="58.024" r="2.5"/>
-<circle id="nav64" cx="197.486" cy="58.024" r="2.5"/>
-<circle id="nav65" cx="207.486" cy="58.024" r="2.5"/>
-<circle id="nav66" cx="217.486" cy="58.024" r="2.5"/>
-<circle id="nav67" cx="227.486" cy="58.024" r="2.5"/>
-<circle id="nav68" cx="237.486" cy="58.024" r="2.5"/>
-<circle id="nav69" cx="247.486" cy="58.024" r="2.5"/>
-<circle id="nav70" cx="257.486" cy="58.024" r="2.5"/>
-<circle id="nav71" cx="267.486" cy="58.024" r="2.5"/>
-<circle id="nav72" cx="277.486" cy="58.024" r="2.5"/>
-<circle id="nav73" cx="287.486" cy="58.024" r="2.5"/>
-<circle id="nav74" cx="297.486" cy="58.024" r="2.5"/>
-<circle id="nav75" cx="307.486" cy="58.024" r="2.5"/>
-<circle id="nav76" cx="317.486" cy="58.024" r="2.5"/>
-<circle id="nav77" cx="327.486" cy="58.024" r="2.5"/>
-<circle id="nav78" cx="337.486" cy="58.024" r="2.5"/>
-<circle id="nav79" cx="347.486" cy="58.024" r="2.5"/>
-<circle id="nav80" cx="357.486" cy="58.024" r="2.5"/>
-<circle id="nav81" cx="367.486" cy="58.024" r="2.5"/>
-<circle id="nav82" cx="377.486" cy="58.024" r="2.5"/>
-<circle id="nav83" cx="387.486" cy="58.024" r="2.5"/>
-<circle id="nav84" cx="397.486" cy="58.024" r="2.5"/>
-<circle id="nav85" cx="407.486" cy="58.024" r="2.5"/>
-<circle id="nav86" cx="417.486" cy="58.024" r="2.5"/>
-<circle id="nav87" cx="427.486" cy="58.024" r="2.5"/>
-<circle id="nav88" cx="437.486" cy="58.024" r="2.5"/>
-<circle id="nav89" cx="447.486" cy="58.024" r="2.5"/>
-<circle id="nav90" cx="457.486" cy="58.024" r="2.5"/>
-<circle id="nav91" cx="467.486" cy="58.024" r="2.5"/>
-<circle id="nav92" cx="477.486" cy="58.024" r="2.5"/>
-<circle id="nav93" cx="487.486" cy="58.024" r="2.5"/>
-<circle id="nav94" cx="497.486" cy="58.024" r="2.5"/>
-<circle id="nav95" cx="507.486" cy="58.024" r="2.5"/>
-<circle id="nav96" cx="517.486" cy="58.024" r="2.5"/>
-<circle id="nav97" cx="527.486" cy="58.024" r="2.5"/>
-<circle id="nav98" cx="537.486" cy="58.024" r="2.5"/>
-<circle id="nav99" cx="547.486" cy="58.024" r="2.5"/>
-<circle id="nav100" cx="557.486" cy="58.024" r="2.5"/>
-<circle id="nav101" cx="567.486" cy="58.024" r="2.5"/>
-<circle id="nav102" cx="577.486" cy="58.024" r="2.5"/>
-<circle id="nav103" cx="587.486" cy="58.024" r="2.5"/>
+<circle id="nav1" opacity="0.5" cx="87.486" cy="48.024" r="2.5"/>
+<circle id="nav2" opacity="0.5" cx="97.486" cy="48.024" r="2.5"/>
+<circle id="nav3" opacity="0.5" cx="107.486" cy="48.024" r="2.5"/>
+<circle id="nav4" opacity="0.5" cx="117.486" cy="48.024" r="2.5"/>
+<circle id="nav5" opacity="0.5" cx="127.486" cy="48.024" r="2.5"/>
+<circle id="nav6" opacity="0.5" cx="137.486" cy="48.024" r="2.5"/>
+<circle id="nav7" opacity="0.5" cx="147.486" cy="48.024" r="2.5"/>
+<circle id="nav8" opacity="0.5" cx="157.486" cy="48.024" r="2.5"/>
+<circle id="nav9" opacity="0.5" cx="167.486" cy="48.024" r="2.5"/>
+<circle id="nav10" opacity="0.5" cx="177.486" cy="48.024" r="2.5"/>
+<circle id="nav11" opacity="0.5" cx="187.486" cy="48.024" r="2.5"/>
+<circle id="nav12" opacity="0.5" cx="197.486" cy="48.024" r="2.5"/>
+<circle id="nav13" opacity="0.5" cx="207.486" cy="48.024" r="2.5"/>
+<circle id="nav14" opacity="0.5" cx="217.486" cy="48.024" r="2.5"/>
+<circle id="nav15" opacity="0.5" cx="227.486" cy="48.024" r="2.5"/>
+<circle id="nav16" opacity="0.5" cx="237.486" cy="48.024" r="2.5"/>
+<circle id="nav17" opacity="0.5" cx="247.486" cy="48.024" r="2.5"/>
+<circle id="nav18" opacity="0.5" cx="257.486" cy="48.024" r="2.5"/>
+<circle id="nav19" opacity="0.5" cx="267.486" cy="48.024" r="2.5"/>
+<circle id="nav20" opacity="0.5" cx="277.486" cy="48.024" r="2.5"/>
+<circle id="nav21" opacity="0.5" cx="287.486" cy="48.024" r="2.5"/>
+<circle id="nav22" opacity="0.5" cx="297.486" cy="48.024" r="2.5"/>
+<circle id="nav23" opacity="0.5" cx="307.486" cy="48.024" r="2.5"/>
+<circle id="nav24" opacity="0.5" cx="317.486" cy="48.024" r="2.5"/>
+<circle id="nav25" opacity="0.5" cx="327.486" cy="48.024" r="2.5"/>
+<circle id="nav26" opacity="0.5" cx="337.486" cy="48.024" r="2.5"/>
+<circle id="nav27" opacity="0.5" cx="347.486" cy="48.024" r="2.5"/>
+<circle id="nav28" opacity="0.5" cx="357.486" cy="48.024" r="2.5"/>
+<circle id="nav29" opacity="0.5" cx="367.486" cy="48.024" r="2.5"/>
+<circle id="nav30" opacity="0.5" cx="377.486" cy="48.024" r="2.5"/>
+<circle id="nav31" opacity="0.5" cx="387.486" cy="48.024" r="2.5"/>
+<circle id="nav32" opacity="0.5" cx="397.486" cy="48.024" r="2.5"/>
+<circle id="nav33" opacity="0.5" cx="407.486" cy="48.024" r="2.5"/>
+<circle id="nav34" opacity="0.5" cx="417.486" cy="48.024" r="2.5"/>
+<circle id="nav35" opacity="0.5" cx="427.486" cy="48.024" r="2.5"/>
+<circle id="nav36" opacity="0.5" cx="437.486" cy="48.024" r="2.5"/>
+<circle id="nav37" opacity="0.5" cx="447.486" cy="48.024" r="2.5"/>
+<circle id="nav38" opacity="0.5" cx="457.486" cy="48.024" r="2.5"/>
+<circle id="nav39" opacity="0.5" cx="467.486" cy="48.024" r="2.5"/>
+<circle id="nav40" opacity="0.5" cx="477.486" cy="48.024" r="2.5"/>
+<circle id="nav41" opacity="0.5" cx="487.486" cy="48.024" r="2.5"/>
+<circle id="nav42" opacity="0.5" cx="497.486" cy="48.024" r="2.5"/>
+<circle id="nav43" opacity="0.5" cx="507.486" cy="48.024" r="2.5"/>
+<circle id="nav44" opacity="0.5" cx="517.486" cy="48.024" r="2.5"/>
+<circle id="nav45" opacity="0.5" cx="527.486" cy="48.024" r="2.5"/>
+<circle id="nav46" opacity="0.5" cx="537.486" cy="48.024" r="2.5"/>
+<circle id="nav47" opacity="0.5" cx="547.486" cy="48.024" r="2.5"/>
+<circle id="nav48" opacity="0.5" cx="557.486" cy="48.024" r="2.5"/>
+<circle id="nav49" opacity="0.5" cx="567.486" cy="48.024" r="2.5"/>
+<circle id="nav50" opacity="0.5" cx="577.486" cy="48.024" r="2.5"/>
+<circle id="nav51" opacity="0.5" cx="587.486" cy="48.024" r="2.5"/>
+<circle id="nav52" opacity="0.5" cx="597.486" cy="48.024" r="2.5"/>
+<circle id="nav53" opacity="0.5" cx="87.486" cy="658.024" r="2.5"/>
+<circle id="nav54" opacity="0.5" cx="97.486" cy="658.024" r="2.5"/>
+<circle id="nav55" opacity="0.5" cx="107.486" cy="658.024" r="2.5"/>
+<circle id="nav56" opacity="0.5" cx="117.486" cy="658.024" r="2.5"/>
+<circle id="nav57" opacity="0.5" cx="127.486" cy="658.024" r="2.5"/>
+<circle id="nav58" opacity="0.5" cx="137.486" cy="658.024" r="2.5"/>
+<circle id="nav59" opacity="0.5" cx="147.486" cy="658.024" r="2.5"/>
+<circle id="nav60" opacity="0.5" cx="157.486" cy="658.024" r="2.5"/>
+<circle id="nav61" opacity="0.5" cx="167.486" cy="658.024" r="2.5"/>
+<circle id="nav62" opacity="0.5" cx="177.486" cy="658.024" r="2.5"/>
+<circle id="nav63" opacity="0.5" cx="187.486" cy="658.024" r="2.5"/>
+<circle id="nav64" opacity="0.5" cx="197.486" cy="658.024" r="2.5"/>
+<circle id="nav65" opacity="0.5" cx="207.486" cy="658.024" r="2.5"/>
+<circle id="nav66" opacity="0.5" cx="217.486" cy="658.024" r="2.5"/>
+<circle id="nav67" opacity="0.5" cx="227.486" cy="658.024" r="2.5"/>
+<circle id="nav68" opacity="0.5" cx="237.486" cy="658.024" r="2.5"/>
+<circle id="nav69" opacity="0.5" cx="247.486" cy="658.024" r="2.5"/>
+<circle id="nav70" opacity="0.5" cx="257.486" cy="658.024" r="2.5"/>
+<circle id="nav71" opacity="0.5" cx="267.486" cy="658.024" r="2.5"/>
+<circle id="nav72" opacity="0.5" cx="277.486" cy="658.024" r="2.5"/>
+<circle id="nav73" opacity="0.5" cx="287.486" cy="658.024" r="2.5"/>
+<circle id="nav74" opacity="0.5" cx="297.486" cy="658.024" r="2.5"/>
+<circle id="nav75" opacity="0.5" cx="307.486" cy="658.024" r="2.5"/>
+<circle id="nav76" opacity="0.5" cx="317.486" cy="658.024" r="2.5"/>
+<circle id="nav77" opacity="0.5" cx="327.486" cy="658.024" r="2.5"/>
+<circle id="nav78" opacity="0.5" cx="337.486" cy="658.024" r="2.5"/>
+<circle id="nav79" opacity="0.5" cx="347.486" cy="658.024" r="2.5"/>
+<circle id="nav80" opacity="0.5" cx="357.486" cy="658.024" r="2.5"/>
+<circle id="nav81" opacity="0.5" cx="367.486" cy="658.024" r="2.5"/>
+<circle id="nav82" opacity="0.5" cx="377.486" cy="658.024" r="2.5"/>
+<circle id="nav83" opacity="0.5" cx="387.486" cy="658.024" r="2.5"/>
+<circle id="nav84" opacity="0.5" cx="397.486" cy="658.024" r="2.5"/>
+<circle id="nav85" opacity="0.5" cx="407.486" cy="658.024" r="2.5"/>
+<circle id="nav86" opacity="0.5" cx="417.486" cy="658.024" r="2.5"/>
+<circle id="nav87" opacity="0.5" cx="427.486" cy="658.024" r="2.5"/>
+<circle id="nav88" opacity="0.5" cx="437.486" cy="658.024" r="2.5"/>
+<circle id="nav89" opacity="0.5" cx="447.486" cy="658.024" r="2.5"/>
+<circle id="nav90" opacity="0.5" cx="457.486" cy="658.024" r="2.5"/>
+<circle id="nav91" opacity="0.5" cx="467.486" cy="658.024" r="2.5"/>
+<circle id="nav92" opacity="0.5" cx="477.486" cy="658.024" r="2.5"/>
+<circle id="nav93" opacity="0.5" cx="487.486" cy="658.024" r="2.5"/>
+<circle id="nav94" opacity="0.5" cx="497.486" cy="658.024" r="2.5"/>
+<circle id="nav95" opacity="0.5" cx="507.486" cy="658.024" r="2.5"/>
+<circle id="nav96" opacity="0.5" cx="517.486" cy="658.024" r="2.5"/>
+<circle id="nav97" opacity="0.5" cx="527.486" cy="658.024" r="2.5"/>
+<circle id="nav98" opacity="0.5" cx="537.486" cy="658.024" r="2.5"/>
+<circle id="nav99" opacity="0.5" cx="547.486" cy="658.024" r="2.5"/>
+<circle id="nav100" opacity="0.5" cx="557.486" cy="658.024" r="2.5"/>
+<circle id="nav101" opacity="0.5" cx="567.486" cy="658.024" r="2.5"/>
+<circle id="nav102" opacity="0.5" cx="577.486" cy="658.024" r="2.5"/>
+<circle id="nav103" opacity="0.5" cx="587.486" cy="658.024" r="2.5"/>
 </g>
 </svg>

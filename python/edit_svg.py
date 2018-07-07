@@ -12,15 +12,26 @@ with open("../data/nouns/chain_stats.csv", "r") as f:
 			(x != "" and "." not in x)]
 		chains[fname.replace("chain_", "").replace(".csv", "")] = line_arr
 
+i = 0
 for lang in chains:
+
+	i+=1
+	nav_id = "\"nav"+str(i)+"\""
+
 	with open("../ai/chain_blend.svg", "r") as f:
 		data = "".join(f.readlines())
-		# print(data)
 		for i in range(len(chains[lang])):
 			links = chains[lang][i]
+
+			# change opacity on spiral
 			data = data.replace(
 				"\"l"+str(i+1)+"\" opacity=\"0.4\"", 
 				"\"l"+str(i+1)+"\" opacity=\""+str(min(links*0.25, 1))+"\"")
+
+			# change opacity of nav dots
+			data = data.replace(
+				"id="+nav_id+" opacity=\"0.5\"",
+				"id="+nav_id+" opacity=\"1.0\"")
 
 	with open("../ai/automated/chain_"+lang+".svg", "w") as f:
 		f.write(data)
