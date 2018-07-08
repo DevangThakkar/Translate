@@ -1,4 +1,3 @@
-
 /* default / demo page */
 
 * {
@@ -67,7 +66,11 @@ a:hover {
 	font-size: 1.4rem;
 }
 
-.pointer {
+.chain_pointer {
+	visibility: hidden;
+}
+
+.world_pointer {
 	visibility: hidden;
 }
 
@@ -851,8 +854,6 @@ a:hover {
 	left: 0;
 	bottom: auto;
 	background-color: #927086;
-	/*background-image: url("http://home.iitb.ac.in/~devangthakkar/Design,Painting/lowres.png");*/
-	/*background-repeat: no-repeat;*/
 	-webkit-transform: translate3d(0, 0, 0);
 	-moz-transform: translate3d(0, 0, 0);
 	transform: translate3d(0, 0, 0);
@@ -861,55 +862,46 @@ a:hover {
 .scroll__graphic.is-fixed {
 	position: fixed;
 	background-color: #927086;
-	/*background-image: url("http://home.iitb.ac.in/~devangthakkar/Design,Painting/lowres.png");*/
-	/*background-repeat: no-repeat;*/
 }
 
 .scroll__graphic.is-bottom {
 	bottom: 0;
 	top: auto;
 	background-color: #927086;
-	/*background-image: url("http://home.iitb.ac.in/~devangthakkar/Design,Painting/lowres.png");*/
-	/*background-repeat: no-repeat;*/
 }
 
 .chart {
 	position: fixed;
-	/*right: 1rem;
-	top: 50%;
-	-moz-transform: translateY(-50%);
-	-webkit-transform: translateY(-50%);
-	transform: translateY(-50%);
-	background-color: #ddd;
-	border: 1px solid #000;*/
 	opacity: 1.0;
 	background-color: #927086;
-	/*background-image: url("http://home.iitb.ac.in/~devangthakkar/Design,Painting/lowres.png");*/
-	/*background-repeat: no-repeat;*/
 }
 
 .chart p {
-	/*text-align: center;*/
-	/*padding: 1rem;*/
 	position: absolute;
-	/*top: 50%;
-	left: 50%;
-	-moz-transform: translate(-50%, -50%);
-	-webkit-transform: translate(-50%, -50%);
-	transform: translate(-50%, -50%);
-	font-size: 8rem;
-	font-weight: 900;
-	color: #"927086";
-	opacity: 0.0;*/
 }
 
-.chart img {
-	/*float: right;*/
+.chart.world_image0 {
 	position: fixed;
 	right: 0;
-	/*left: 0;*/
+	top: 0;
 	background-color: #927086;
-	/*background-repeat: no-repeat;*/
+	visibility: visible;
+}
+
+.chart.world_image1 {
+	display: none;
+}
+
+.chart.world_image2 {
+	display: none;
+}
+
+.chart.world_image3 {
+	display: none;
+}
+
+.chart.world_image4 {
+	display: none;
 }
 
 .scroll__text {
@@ -922,7 +914,6 @@ a:hover {
 
 .step {
 	margin: 4em auto;
-	/*border: 1px solid #333;*/
 	background-color: #ffb;
 	opacity: 0.3;
 }
