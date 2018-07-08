@@ -1,0 +1,939 @@
+
+/* default / demo page */
+
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+	font-family:-apple-system,
+				BlinkMacSystemFont,
+				"Segoe UI",
+				Roboto,
+				Oxygen,
+				Ubuntu,
+				Cantarell,
+				"Open Sans",
+				"Helvetica Neue",
+				sans-serif;
+}
+
+body {
+	min-height: 1280px;
+	font-weight: 300;
+	color: #2a2a2a;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+a {
+	margin: 0;
+	font-weight: 300;
+}
+
+a,
+a:visited,
+a:hover {
+	color: #f30;
+	text-decoration: none;
+	border-bottom: 1px solid currentColor;
+}
+
+#intro {
+	max-width: 40rem;
+	margin: 1rem auto;
+	text-align: center;
+}
+
+.intro__overline {
+	font-size: 1.4rem;
+}
+
+.intro__hed {
+	font-size: 1.4rem;
+	margin: 1.5rem auto;
+	text-transform: uppercase;
+	font-weight: 900;
+	letter-spacing: 0.05em;
+}
+
+.intro__dek {
+	font-size: 1.4rem;
+}
+
+.pointer {
+	visibility: hidden;
+}
+
+/* demo */
+
+#intro {
+	margin-bottom: 320px;
+}
+
+#outro {
+	height: 320px;
+}
+.outro__overline {
+	font-size: 1.4rem;
+	text-align: center;
+}
+
+#chain {
+	position: relative;
+	right: 0;
+	top: 0;
+	background-color: #927086;
+	-webkit-transform: translate3d(0, 0, 0);
+	-moz-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+}
+
+.image0 {
+	position: relative;
+	/*float: right;*/
+	top: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.image1 {
+	position: absolute;
+	/*float: right;*/
+	top: 0;
+	right: 0;
+	visibility: visible;
+}
+
+.image2 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.image3 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.image4 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.image5 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.image6 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.image7 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.image8 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.image9 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.image10 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.image11 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.image12 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.image13 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.image14 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.image15 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.image16 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.image17 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.image18 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.image19 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.image20 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.image21 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.image22 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.image23 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.image24 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.image25 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.image26 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.image27 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.image28 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.image29 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.image30 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.image31 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.image32 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.image33 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.image34 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.image35 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.image36 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.image37 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.image38 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.image39 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.image40 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.image41 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.image42 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.image43 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.image44 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.image45 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.image46 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.image47 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.image48 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.image49 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.image50 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.image51 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.image52 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.image53 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.image54 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.image55 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.image56 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.image57 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.image58 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.image59 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.image60 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.image61 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.image62 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.image63 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.image64 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.image65 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.image66 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.image67 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.image68 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.image69 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.image70 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.image71 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.image72 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.image73 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.image74 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.image75 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.image76 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.image77 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.image78 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.image79 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.image80 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.image81 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.image82 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.image83 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.image84 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.image85 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.image86 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.image87 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.image88 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.image89 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.image90 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.image91 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.image92 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.image93 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.image94 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.image95 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.image96 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.image97 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.image98 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.image99 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.image100 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.image101 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.image102 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.image103 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+
+.chain_space {
+	height: 705px;
+	position: relative;
+}
+
+#white_space {
+	height: 20px;
+	background-color: : #fff;
+	position: relative;
+}
+/* scrollama */
+
+#scroll {
+	position: relative;
+	border-top: 1px dashed #927086;
+	border-bottom: 1px dashed #927086;
+	background-color: #927086;
+}
+
+.scroll__graphic {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: auto;
+	background-color: #927086;
+	/*background-image: url("http://home.iitb.ac.in/~devangthakkar/Design,Painting/lowres.png");*/
+	/*background-repeat: no-repeat;*/
+	-webkit-transform: translate3d(0, 0, 0);
+	-moz-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+}
+
+.scroll__graphic.is-fixed {
+	position: fixed;
+	background-color: #927086;
+	/*background-image: url("http://home.iitb.ac.in/~devangthakkar/Design,Painting/lowres.png");*/
+	/*background-repeat: no-repeat;*/
+}
+
+.scroll__graphic.is-bottom {
+	bottom: 0;
+	top: auto;
+	background-color: #927086;
+	/*background-image: url("http://home.iitb.ac.in/~devangthakkar/Design,Painting/lowres.png");*/
+	/*background-repeat: no-repeat;*/
+}
+
+.chart {
+	position: fixed;
+	/*right: 1rem;
+	top: 50%;
+	-moz-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+	background-color: #ddd;
+	border: 1px solid #000;*/
+	opacity: 1.0;
+	background-color: #927086;
+	/*background-image: url("http://home.iitb.ac.in/~devangthakkar/Design,Painting/lowres.png");*/
+	/*background-repeat: no-repeat;*/
+}
+
+.chart p {
+	/*text-align: center;*/
+	/*padding: 1rem;*/
+	position: absolute;
+	/*top: 50%;
+	left: 50%;
+	-moz-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	font-size: 8rem;
+	font-weight: 900;
+	color: #"927086";
+	opacity: 0.0;*/
+}
+
+.chart img {
+	/*float: right;*/
+	position: fixed;
+	right: 0;
+	/*left: 0;*/
+	background-color: #927086;
+	/*background-repeat: no-repeat;*/
+}
+
+.scroll__text {
+	position: relative;
+	padding: 0 3rem;
+	max-width: 30rem;
+	width: 33%;
+	opacity: 0.7;
+}
+
+.step {
+	margin: 4em auto;
+	/*border: 1px solid #333;*/
+	background-color: #ffb;
+	opacity: 0.3;
+}
+
+.step.is-active {
+	opacity: 1.0;
+	background-color: #ffb;
+}
+
+.step p {
+	text-align: center;
+	padding: 1rem;
+	font-size: 1.5rem;
+}

@@ -46,7 +46,7 @@ for lang in sorted(chains.keys()):
 			# add language name
 			data = data.replace(
 				"id=\"language\">Language",
-				"id=\"language\">"+lang_names[lang])			
+				"id=\"language\">"+lang_names[lang]+" ("+lang+")")			
 
 	with open("../ai/automated/chain_"+lang+".svg", "w") as f:
 		f.write(data)

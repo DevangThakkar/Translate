@@ -185,7 +185,7 @@
 <circle id="l978" opacity="0.25" cx="508.19" cy="524.59" r="5.5"/>
 <circle id="l992" opacity="0.25" cx="575.82" cy="426.77" r="5.5"/>
 </g>
-<text x="84" y="600" fill="#FFFF99" font-family="'Roboto'" font-size="18" stroke="none" stroke-miterlimit="10" id="language">Afrikaans</text>
+<text x="84" y="600" fill="#FFFF99" font-family="'Roboto'" font-size="18" stroke="none" stroke-miterlimit="10" id="language">Afrikaans (af)</text>
 <g fill="#ffb" stroke="#ffb" stroke-miterlimit="10" stroke-width=".5">
 <circle id="nav1" opacity="1.0" cx="87" cy="70" r="2.5"/>
 <circle id="nav2" opacity="0.5" cx="97" cy="70" r="2.5"/>
