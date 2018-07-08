@@ -95,13 +95,6 @@
 			background-color: #927086;
 		}
 
-		.chain_solo {
-			/*position: relative;*/
-			float:right;
-			/*right: 0;*/
-			background-color: #927086;
-		}
-
 		.container {
 			/*position: relative;*/
 			float:right;
@@ -231,6 +224,7 @@
 		<p class="intro__dek">
 			Start scrolling to see how it works.
 		</p>
+		<img src="http://home.iitb.ac.in/~devangthakkar/tinydot.svg" id="tiny_dot"></img>
 	</section>
 
 	<section id="chain">
@@ -240,7 +234,7 @@
 
 		<div class="container">
 			<div id="slideshow">
-				<img alt="slideshow" src="http://home.iitb.ac.in/~devangthakkar/chain_images/chain_af.svg" id="imgClickAndChange" onclick="changeImage()" />
+				<img alt="slideshow" src="" id="imgClickAndChange" onkeypress="changeImage()" />
 			</div>
 		</div>
 		<p class="chain_space"></p>
@@ -350,16 +344,31 @@
 					'http://home.iitb.ac.in/~devangthakkar/chain_images/chain_zh-TW.svg',
 					'http://home.iitb.ac.in/~devangthakkar/chain_images/chain_zu.svg'];
 
-		for(var i=0; i<imgs.length; i++) {
-			localStorage.setItem("nav".concat(i.toString()), imgs[i]);
-		}
-
 		var imgs_cache = new Array(80);
-		for(var i=0; i<imgs.length; i++) {
-			imgs_cache[i] = localStorage.getItem("nav".concat(i.toString()));
+		document.getElementById("tiny_dot").onload = function() {
+			for(var i=0; i<imgs.length; i++) {
+				localStorage.setItem("nav".concat(i.toString()), imgs[i]);
+			}
+			console.log("Hello from onload")
+
+			for(var i=0; i<imgs.length; i++) {
+				imgs_cache[i] = localStorage.getItem("nav".concat(i.toString()));
+			}
+			var img = document.getElementById("imgClickAndChange");
+			img.src = imgs_cache[0];
 		}
-		var img = document.getElementById("imgClickAndChange");
-		img.src = imgs_cache[0];
+		console.log(document.getElementById("imgClickAndChange").src);
+
+		// for(var i=0; i<imgs.length; i++) {
+		// 	localStorage.setItem("nav".concat(i.toString()), imgs[i]);
+		// }
+
+		// var imgs_cache = new Array(80);
+		// for(var i=0; i<imgs.length; i++) {
+		// 	imgs_cache[i] = localStorage.getItem("nav".concat(i.toString()));
+		// }
+		// var img = document.getElementById("imgClickAndChange");
+		// img.src = imgs_cache[0];
 
 		function changeImage(dir) {
 			var img = document.getElementById("imgClickAndChange");
