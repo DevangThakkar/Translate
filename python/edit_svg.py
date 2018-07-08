@@ -12,6 +12,12 @@ with open("../data/nouns/chain_stats.csv", "r") as f:
 			(x != "" and "." not in x)]
 		chains[fname.replace("chain_", "").replace(".csv", "")] = line_arr
 
+lang_names = dict()
+with open("../data/nouns/lang_codes.csv", "r") as f:
+	for line in f:
+		line_arr = line.strip().split(",")
+		lang_names[line_arr[1]] = line_arr[0]
+
 count = 0
 for lang in sorted(chains.keys()):
 
@@ -36,6 +42,11 @@ for lang in sorted(chains.keys()):
 			data = data.replace(
 				nav_id+" opacity=\"0.5\"",
 				nav_id+" opacity=\"1.0\"")
+
+			# add language name
+			data = data.replace(
+				"id=\"language\">Language",
+				"id=\"language\">"+lang_names[lang])			
 
 	with open("../ai/automated/chain_"+lang+".svg", "w") as f:
 		f.write(data)

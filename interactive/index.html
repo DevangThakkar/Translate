@@ -110,7 +110,7 @@
 		}
 
 		.chain_space {
-			height: 700px;
+			height: 705px;
 		}
 
 		#white_space {
@@ -239,14 +239,14 @@
 		</div> -->
 
 		<div class="container">
-		    <div id="slideshow">
-		        <img alt="slideshow" src="http://home.iitb.ac.in/~devangthakkar/chain_images/chain_af.svg" id="imgClickAndChange" onclick="changeImage()" />
-		    </div>
+			<div id="slideshow">
+				<img alt="slideshow" src="http://home.iitb.ac.in/~devangthakkar/chain_images/chain_af.svg" id="imgClickAndChange" onclick="changeImage()" />
+			</div>
 		</div>
 		<p class="chain_space"></p>
 	</section>
 	<script>
-	    var imgs = ['http://home.iitb.ac.in/~devangthakkar/chain_images/chain_af.svg',
+		var imgs = ['http://home.iitb.ac.in/~devangthakkar/chain_images/chain_af.svg',
 					'http://home.iitb.ac.in/~devangthakkar/chain_images/chain_am.svg',
 					'http://home.iitb.ac.in/~devangthakkar/chain_images/chain_ar.svg',
 					'http://home.iitb.ac.in/~devangthakkar/chain_images/chain_az.svg',
@@ -350,20 +350,31 @@
 					'http://home.iitb.ac.in/~devangthakkar/chain_images/chain_zh-TW.svg',
 					'http://home.iitb.ac.in/~devangthakkar/chain_images/chain_zu.svg'];
 
-	    function changeImage(dir) {
-	        var img = document.getElementById("imgClickAndChange");
-	        img.src = imgs[imgs.indexOf(img.src) + (dir || 1)] || imgs[dir ? imgs.length - 1 : 0];
-	    }
+		for(var i=0; i<imgs.length; i++) {
+			localStorage.setItem("nav".concat(i.toString()), imgs[i]);
+		}
 
-	    document.onkeydown = function(e) {
-	        e = e || window.event;
-	        if (e.keyCode == '37') {
-	            changeImage(-1) //left <- show Prev image
-	        } else if (e.keyCode == '39') {
-	            // right -> show next image
-	            changeImage()
-	        }
-	    }
+		var imgs_cache = new Array(80);
+		for(var i=0; i<imgs.length; i++) {
+			imgs_cache[i] = localStorage.getItem("nav".concat(i.toString()));
+		}
+		var img = document.getElementById("imgClickAndChange");
+		img.src = imgs_cache[0];
+
+		function changeImage(dir) {
+			var img = document.getElementById("imgClickAndChange");
+			img.src = imgs_cache[imgs_cache.indexOf(img.src) + (dir || 1)] || imgs_cache[dir ? imgs.length - 1 : 0];
+		}
+
+		document.onkeyup = function(e) {
+			e = e || window.event;
+			if (e.keyCode == '37') {
+				changeImage(-1) //left <- show Prev image
+			} else if (e.keyCode == '39') {
+				// right -> show next image
+				changeImage()
+			}
+		}
 	</script>
 
 	<section id="white_space">
