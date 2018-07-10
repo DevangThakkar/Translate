@@ -22,7 +22,7 @@ count = 0
 for lang in sorted(chains.keys()):
 
 	count+=1
-	nav_id = "\"nav"+str(count)+"\""
+	nav_id = "\"n"+str(count)+"\""
 
 	with open("../ai/chain_blend.svg", "r") as f:
 		data = "".join(f.readlines())
@@ -34,8 +34,8 @@ for lang in sorted(chains.keys()):
 			# print(data)
 			# print("\"l"+str(i+1)+"\" opacity=\"0.4\"" in data)
 			data = data.replace(
-				"\"l"+str(i+1)+"\" opacity=\".4\"", 
-				"\"l"+str(i+1)+"\" opacity=\""+str(min(links*0.25, 1))+"\"")
+				"\"w"+str(i+1)+"\" opacity=\".4\"", 
+				"\"w"+str(i+1)+"\" opacity=\""+str(min(links*0.25, 1))+"\"")
 
 			# change opacity of nav dots
 			# print(nav_id+" opacity=\"0.5\"", nav_id+" opacity=\"1.0\"")
