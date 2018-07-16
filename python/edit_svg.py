@@ -3,6 +3,17 @@
 
 import re
 
+# open file with language name to code mapping and store it in a dict
+# lang_names[<lang code>] = <language name>
+lang_names = dict()
+with open("../data/nouns/lang_codes.csv", "r") as f:
+	for line in f:
+		line_arr = line.strip().split(",")
+		lang_names[line_arr[1]] = line_arr[0]
+
+# open chain stats file and store data in a dict
+# file contains the number of chains for each word (,) for each language (\n)
+# chains[<language name + lang code] = <array of counts for each word>
 chains = dict()
 with open("../data/nouns/chain_stats.csv", "r") as f:
 	for line in f:
@@ -10,19 +21,23 @@ with open("../data/nouns/chain_stats.csv", "r") as f:
 		fname = line_arr[0]
 		line_arr = [int(x.strip()) for x in line_arr if
 			(x != "" and "." not in x)]
-		chains[fname.replace("chain_", "").replace(".csv", "")] = line_arr
+		lang_code = fname.replace("chain_", "").replace(".csv", "")
+		lang_full = lang_names[lang_code] + " [" + lang_code + "]" 
+		chains[lang_full] = line_arr
 
-lang_names = dict()
-with open("../data/nouns/lang_codes.csv", "r") as f:
-	for line in f:
-		line_arr = line.strip().split(",")
-		lang_names[line_arr[1]] = line_arr[0]
+# read and write the chain blend start file into final file
+start = ""
+with open("../ai/chain_blend_start.svg", "r") as f:
+	start = "".join(f.readlines())
+
+with open("../ai/chain_blend_final.svg", "w") as f:
+	f.write(start)
 
 count = 0
 for lang in sorted(chains.keys()):
 
 	count+=1
-	nav_id = "\"n"+str(count)+"\""
+	nav_id = "\'n"+str(count)+"\'"
 
 	with open("../ai/chain_blend.svg", "r") as f:
 		data = "".join(f.readlines())
@@ -30,40 +45,40 @@ for lang in sorted(chains.keys()):
 			links = chains[lang][i]
 
 			# change opacity on spiral
-			# print("\"l"+str(i+1)+"\" opacity=\"0.4\"")
-			# print(data)
-			# print("\"l"+str(i+1)+"\" opacity=\"0.4\"" in data)
 			data = data.replace(
-				"\"w"+str(i+1)+"\" opacity=\".4\"", 
-				"\"w"+str(i+1)+"\" opacity=\""+str(min(links*0.25, 1))+"\"")
+				"\'w"+str(i+1)+"\' opacity=\'.4\'", 
+				"\'w"+str(i+1)+"\' opacity=\'"+str(min(links*0.25, 1))+"\'")
 
 			# change opacity of nav dots
-			# print(nav_id+" opacity=\"0.5\"", nav_id+" opacity=\"1.0\"")
 			data = data.replace(
-				nav_id+" opacity=\"0.5\"",
-				nav_id+" opacity=\"1.0\"")
+				nav_id+" opacity=\'0.51\'",
+				nav_id+" opacity=\'1.0\'")
 
 			# add language name
 			data = data.replace(
-				"id=\"language\">Language",
-				"id=\"language\">"+lang_names[lang]+" ("+lang+")")			
+				"id=\'language\'>Language",
+				"id=\'language\'>"+lang)
 
-	with open("../ai/automated/chain_"+lang+".svg", "w") as f:
+	with open("../ai/automated/chain_"+lang.split(" [")[1].replace("]", "")+".svg", "w") as f:
+		f.write("<g id=Layer_"+str(count)+">\n")
 		f.write(data)
 
 	mod_data = ""
-	with open("../ai/automated/chain_"+lang+".svg", "r") as f:
+	with open("../ai/automated/chain_"+lang.split(" [")[1].replace("]", "")+".svg", "r") as f:
 		for line in f:
-			# print(line)
-			# print("opacity=\"0.0\"" in line)
-			if "opacity=\"0.0\"" in line:
-				pass
-			else:
-				mod_data += line
+			if "opacity=\'0.0\'" in line:
+				continue
+			if "opacity=\'0.51\'" in line
+				continue
+			mod_data += line
 
-	with open("../ai/automated/chain_"+lang+".svg", "w") as f:
+	with open("../ai/chain_blend_final.svg", "a") as f:
 		mod_data = mod_data.replace("\n\t", "\n").replace("\n\t", "\n")
 		mod_data = mod_data.replace("\n\n", "\n").replace("\n\n", "\n")
 		mod_data = mod_data.replace("\n\n", "\n").replace("\n\n", "\n")
 		mod_data = mod_data.replace("\n\n", "\n").replace("\n\n", "\n")
 		f.write(mod_data)
+		f.write("<\g>\n")
+
+with open("../ai/chain_blend_final.svg", "a") as f:
+	f.write("<\svg")
