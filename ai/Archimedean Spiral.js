@@ -21,7 +21,7 @@ var radius_increment = 5; // radius-increment per round (point)
 
 var uzu_angle = 15 /180 * mpi; // unit of rounding angle (radian)
 
-var uzu_roundtime = 11; // rounding times
+var uzu_roundtime = 3; // rounding times
 
 // =================================
 var han = 4 / 3 * (1 - Math.cos( uzu_angle / 2 )) / Math.sin( uzu_angle / 2 );

@@ -1,4 +1,4 @@
-<g fill='#ffb' stroke='#ff0' stroke-width='.44'>
+<g stroke-width='.44'>
 <circle class='w' id='w1' opacity='.4' cx='343.51' cy='342.87' r='5.5'/>
 <circle class='w' id='w2' opacity='.4' cx='342.49' cy='336.73' r='5.5'/>
 <circle class='w' id='w3' opacity='.4' cx='334.66' cy='338.82' r='5.5'/>
@@ -1001,7 +1001,7 @@
 <circle class='w' id='w1000' opacity='.4' cx='590.9' cy='360.04' r='5.5'/>
 </g>
 
-<g fill='#ffb' stroke='#ffb' stroke-miterlimit='10' stroke-width='.5' font-family="'Roboto'">
+<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Roboto'">
 <circle class='n' id='n1' opacity='0.51' cx='87' cy='70' r='2.5' t='Afrikaans (af)'/>
 <circle class='n' id='n2' opacity='0.51' cx='97' cy='70' r='2.5' t='Albanian (sq)'/>
 <circle class='n' id='n3' opacity='0.51' cx='107' cy='70' r='2.5' t='Amharic (am)'/>
@@ -1107,14 +1107,14 @@
 <circle class='n' id='n103' opacity='0.51' cx='587' cy='625' r='2.5' t='Zulu (zu)'/>
 </g>
 
-<text x='84' y='600' fill='#FFFF99' font-family="'Roboto'" font-size='18' stroke='none' stroke-miterlimit='10' id='language'>Language</text>
+<text x='84' y='600' fill='#781b7a' font-family="'Roboto'" font-size='18' stroke='none' stroke-miterlimit='10' id='language'>Language</text>
 
 <g id='tooltip' visibility='hidden'>
-<rect width='40' height='24' fill='#ffb' rx='4' ry='4' id='tooltip-box'/>
-<text x='4' y='4' id='tooltip-text' font-family="'Roboto'" fill='#927086'>Tooltip</text>
+<rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-box'/>
+<text x='4' y='4' id='tooltip-text' font-family="'Roboto'" fill='#ffb'>Tooltip</text>
 </g>
 
 <g id='tooltip_word' visibility='hidden'>
-<rect width='40' height='24' fill='#ffb' rx='4' ry='4' id='tooltip-word-box'/>
-<text x='3' y='6' id='tooltip-word-text' font-family="'Roboto'" fill='#927086'>Tooltip word</text>
+<rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-word-box'/>
+<text x='3' y='6' id='tooltip-word-text' font-family="'Roboto'" fill='#ffb'>Tooltip word</text>
 </g>

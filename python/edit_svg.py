@@ -25,6 +25,10 @@ with open("../data/nouns/chain_stats.csv", "r") as f:
 		lang_full = lang_names[lang_code] + " [" + lang_code + "]" 
 		chains[lang_full] = line_arr
 
+# reinit final file
+with open("../ai/chain_blend_final.svg", "w") as f:
+	f.write("")
+
 # read and write the chain blend start file into final file
 start = ""
 with open("../ai/chain_blend_start.svg", "r") as f:
@@ -45,9 +49,12 @@ for lang in sorted(chains.keys()):
 			links = chains[lang][i]
 
 			# change opacity on spiral
+			opacity = ["0.0", ".2", ".4", ".6", ".8"]
+			colors = ["#ffffff", "#f44bf9", "#bf37b5", "#7c157c", "#490056"]
 			data = data.replace(
 				"\'w"+str(i+1)+"\' opacity=\'.4\'", 
-				"\'w"+str(i+1)+"\' opacity=\'"+str(min(links*0.25, 1))+"\'")
+				"\'w"+str(i+1)+"\' opacity=\'"+opacity[min(links, 4)]+"\' "+
+				"fill="+"\'"+colors[min(links, 4)]+"\'")
 
 			# change opacity of nav dots
 			data = data.replace(
@@ -59,16 +66,17 @@ for lang in sorted(chains.keys()):
 				"id=\'language\'>Language",
 				"id=\'language\'>"+lang)
 
-	with open("../ai/automated/chain_"+lang.split(" [")[1].replace("]", "")+".svg", "w") as f:
-		f.write("<g id=Layer_"+str(count)+">\n")
+	name = "../ai/automated/chain_"+lang.split(" [")[1].replace("]", "")+".svg"
+	with open(name, "w") as f:
+		f.write("<g id=\'Layer_"+str(count)+"\' opacity=\'0.0\'>\n")
 		f.write(data)
 
 	mod_data = ""
-	with open("../ai/automated/chain_"+lang.split(" [")[1].replace("]", "")+".svg", "r") as f:
+	with open(name, "r") as f:
 		for line in f:
-			if "opacity=\'0.0\'" in line:
+			if "opacity=\'0.0\' fill" in line:
 				continue
-			if "opacity=\'0.51\'" in line
+			if "opacity=\'0.51\'" in line:
 				continue
 			mod_data += line
 
@@ -78,7 +86,7 @@ for lang in sorted(chains.keys()):
 		mod_data = mod_data.replace("\n\n", "\n").replace("\n\n", "\n")
 		mod_data = mod_data.replace("\n\n", "\n").replace("\n\n", "\n")
 		f.write(mod_data)
-		f.write("<\g>\n")
+		f.write("</g>\n")
 
 with open("../ai/chain_blend_final.svg", "a") as f:
-	f.write("<\svg")
+	f.write("</svg>")

@@ -346,7 +346,7 @@ am	482	credit	loan
 am	485	safety	security
 am	486	neighborhood	neighbor
 am	487	act	action	function
-am	488	troop	warrior (g)
+am	488	troop	warrior
 am	493	sky	heaven
 am	496	object	thing
 am	498	labor	force	power
@@ -771,7 +771,7 @@ ar	478	judge	the judge
 ar	479	relation	relationship	link
 ar	480	bird	a bird
 ar	484	version	release
-ar	488	troop	troops (t)
+ar	488	troop	troops
 ar	489	income	revenue	revenues
 ar	490	species	ocean
 ar	491	track	a path
@@ -1004,7 +1004,7 @@ az	20	part	part of it	a part of it
 az	22	case	situation
 az	28	work	business
 az	32	mr	mr.
-az	41	fact	in fact	actually	əslində əslində
+az	41	fact	in fact	actually, in fact	actually in facr
 az	43	lot	much more	more
 az	44	right	thank you	thank you very much
 az	45	study	to learn
@@ -1391,7 +1391,7 @@ be	472	forest	wood
 be	479	relation	attitude
 be	481	opinion	view
 be	483	corner	angle
-be	488	troop	troops	forces	force (tm)	force (u)
+be	488	troop	troops	forces	force
 be	489	income	earnings	profit
 be	490	species	view
 be	493	sky	heaven
@@ -1569,7 +1569,7 @@ bg	298	disease	illness
 bg	299	success	good luck
 bg	301	amount	quantity
 bg	304	character	nature
-bg	309	region	area	■ area
+bg	309	region	area
 bg	310	television	tv
 bg	316	election	elections
 bg	332	stage	scene
@@ -1585,7 +1585,7 @@ bg	381	chair	president
 bg	386	bit	little
 bg	390	trip	travel
 bg	391	evening	in the evening
-bg	398	edge	край	end	край	end
+bg	398	edge	edge, end	end, end
 bg	409	stuff	matter	question
 bg	422	pattern	model
 bg	430	item	property
@@ -1614,7 +1614,7 @@ bg	545	survey	research
 bg	549	sales	commercial
 bg	557	increase	growing
 bg	558	middle	average
-bg	560	district	area	■ area
+bg	560	district	area
 bg	561	shape	form
 bg	563	ms	miss
 bg	567	strength	force
@@ -1870,7 +1870,6 @@ bn	482	credit	borrow
 bn	483	corner	angle
 bn	485	safety	security
 bn	487	act	law
-bn	488	troop	troop (paul)
 bn	491	track	road	the road
 bn	495	plane	flat
 bn	496	object	purpose
@@ -2379,7 +2378,7 @@ ca	666	finding	to find
 ca	670	pair	even
 ca	676	cut	cut down
 ca	680	search	close	near
-ca	684	progress	progressar	progress	progrés
+ca	684	progress	progress, progress
 ca	686	bottom	background
 ca	689	studio	study	to study
 ca	690	lady	ms
@@ -3717,7 +3716,7 @@ de	156	record	recording
 de	158	space	room
 de	162	official	officially
 de	165	couple	pair
-de	166	site	page? ˅
+de	166	site	page
 de	172	court	dish
 de	175	situation	location
 de	176	cost	costs
@@ -3746,7 +3745,7 @@ de	264	color	colour
 de	265	store	business
 de	267	movement	move
 de	269	race	run
-de	270	concern	sorge	concern	sorge	worry	sorge dich	worry
+de	270	concern	concern, concern	worry, worry	care, worry
 de	273	response	answer	reply
 de	277	article	items
 de	292	individual	individually
@@ -3921,13 +3920,13 @@ el	55	house	home
 el	60	hour	time	year
 el	70	president	chairman
 el	71	team	club
-el	72	minute	minute	λεπτό	minute	λεπτό
+el	72	minute	minute, thin	minute, minute
 el	74	kid	child
 el	78	parent	parent company	family business
 el	85	person	face
 el	98	moment	dot	perfect
 el	101	force	power
-el	107	process	διαδικασία	process	διαδικασία	procedure
+el	107	process	process, process	procedure, procedure
 el	109	market	buy
 el	114	interest	interesting
 el	117	effect	result
@@ -5360,7 +5359,7 @@ fa	204	film	the movie
 fa	211	century	centuries
 fa	219	course	the period
 fa	222	opportunity	the opportunity
-fa	223	term	term	اصطلاح، اصطلاح
+fa	223	term	term, term
 fa	226	choice	selective
 fa	227	rule	law
 fa	229	administration	management
@@ -5428,7 +5427,7 @@ fa	393	unit	the unit
 fa	395	adult	mature
 fa	396	range	domain
 fa	397	past	the past
-fa	398	edge	margin	حاشیه، غیر متمرکز	decentralized	marginal
+fa	398	edge	margin, decentralized	marginal, decentralized
 fa	399	writer	the writer
 fa	400	trouble	problem	question
 fa	402	fear	the fear
@@ -5638,7 +5637,7 @@ fa	935	bomb	bombs
 fa	936	tone	tune	music
 fa	938	wheel	the wheel
 fa	943	jew	yeah	yes
-fa	945	secretary	secretary	وزیر امور خارجه، وزیر امور خارجه	secretary of state
+fa	945	secretary	secretary, secretary	secretary of state, secretary of state
 fa	949	grass	lawn
 fa	954	drink	drinking
 fa	958	milk	lion
@@ -7930,7 +7929,7 @@ haw	323	sex	woman
 haw	325	section	place	one
 haw	326	glass	the glass
 haw	327	skill	knowledge	we are confident	we agree	we stand
-haw	328	sister	kaikaina	kaikuaʻana
+haw	328	sister	brother
 haw	330	operation	work
 haw	331	crime	wrong
 haw	332	stage	the board
@@ -8221,7 +8220,7 @@ haw	689	studio	school	the school
 haw	690	lady	mother
 haw	691	colleague	partners	set off
 haw	692	application	application program
-haw	693	neck	'as far as
+haw	693	neck	as far as
 haw	694	damage	wrong
 haw	695	plastic	the scorpion	poisonous snake	scorpions
 haw	696	plate	tablet
@@ -8254,7 +8253,7 @@ haw	729	lunch	midnight	at midnight
 haw	731	sugar	to dig	eel
 haw	732	planet	earth
 haw	733	enemy	owner	have got
-haw	735	soul	spirit	ka'uhane
+haw	735	soul	spirit	kauhane
 haw	737	meaning	fruit	product
 haw	739	instrument	instruments of music	musical instruments
 haw	740	weather	time
@@ -8598,7 +8597,7 @@ hi	366	ball	the ball
 hi	367	talk	chit chat
 hi	369	impact	effect
 hi	372	direction	the direction
-hi	373	weapon	weapons	शस्त्र	weapons	हथियार
+hi	373	weapon	weapons
 hi	374	employee	staff
 hi	375	peace	om shanti om
 hi	379	measure	measurement
@@ -9367,7 +9366,7 @@ hr	89	party	fun
 hr	91	change	to change
 hr	95	girl	a girl
 hr	98	moment	the moment
-hr	100	teacher	nastavnik	teacher	professor	učitelj	teacher
+hr	100	teacher	teacher, teacher, professor
 hr	107	process	procedure
 hr	108	music	muzika	music	glazba
 hr	110	sense	feeling
@@ -11822,9 +11821,9 @@ iw	351	manager	director
 iw	357	seat	session
 iw	359	trial	sentence
 iw	362	firm	solid
-iw	365	management	management board	- board of directors
+iw	365	management	management board	board of directors
 iw	367	talk	speak
-iw	369	impact	injury	פגיעה	damage	נזק	damage
+iw	369	impact	injury	damage
 iw	370	statement	disclaimer
 iw	371	charge	charging
 iw	372	direction	because
@@ -12772,7 +12771,7 @@ ka	812	setting	will create	we will create
 ka	815	outcome	result
 ka	816	ad	advertisement
 ka	818	sheet	paper
-ka	819	extent	რამდენადაც	ასე რომ	ისე	კარგად
+ka	819	extent	so much so	so	well
 ka	821	contrast	unlike
 ka	824	chief	home
 ka	827	cat	the cat
@@ -14022,7 +14021,7 @@ ko	463	debate	arguement
 ko	475	reform	amendment
 ko	483	corner	edge
 ko	484	version	translation
-ko	488	troop	history (soldier)	history (soldiers)
+ko	488	troop	military	group
 ko	490	species	bell
 ko	492	hope	expectation
 ko	496	object	purpose
@@ -15067,14 +15066,13 @@ ky	312	tv	television network	tv network
 ky	314	trade	a trade
 ky	315	deal	the work
 ky	317	feeling	a feeling
-ky	318	standard	-standarttı
 ky	319	bill	the draft law
 ky	320	message	expression
 ky	322	benefit	profit
 ky	324	lawyer	a lawyer
 ky	325	section	department
 ky	326	glass	a glass
-ky	328	sister	brother	ини
+ky	328	sister	brother
 ky	329	professor	a teacher
 ky	333	authority	authorities
 ky	335	sort	type of
@@ -15429,7 +15427,6 @@ la	59	power	government
 la	61	game	school
 la	67	city	the city
 la	68	community	city	the city
-la	74	kid	kid;
 la	77	back	again
 la	81	level	plane
 la	83	door	the door
@@ -15469,7 +15466,7 @@ la	183	picture	pictures
 la	185	piece	part
 la	186	land	earth
 la	188	doctor	the doctor
-la	191	worker	it works;	is working;	work;
+la	191	worker	it works	is working	work
 la	194	movie	developer
 la	196	love	to love
 la	197	support	help
@@ -15480,7 +15477,7 @@ la	210	look	search
 la	212	evidence	and
 la	217	energy	industry
 la	218	period	time
-la	219	course	namely	namely;
+la	219	course	namely	namely
 la	222	opportunity	power	government
 la	223	term	the border
 la	224	letter	literature
@@ -15523,7 +15520,7 @@ la	351	manager	a lot	many
 la	354	science	knowledge
 la	360	expert	lawyer
 la	361	spring	source
-la	363	democrat	democracy	democracy;
+la	363	democrat	democracy
 la	366	ball	sphere
 la	368	theory	learning
 la	370	statement	said
@@ -15564,7 +15561,7 @@ la	481	opinion	sentence
 la	482	credit	faith
 la	483	corner	the corner
 la	486	neighborhood	closely
-la	488	troop	troop (n)	band (s)	the band (s)
+la	488	troop	after this troop?	and if not, after this troop?
 la	489	income	revenue
 la	491	track	path
 la	492	hope	i hope
@@ -15624,7 +15621,7 @@ la	664	tour	price
 la	666	finding	invention
 la	670	pair	match
 la	677	will	however
-la	681	democracy	democracy;
+la	681	democracy	democracy
 la	685	front	before
 la	686	bottom	only
 la	694	damage	loss
@@ -15646,7 +15643,6 @@ la	749	breath	spirit
 la	750	sight	glance
 la	753	minority	part
 la	754	works	the works
-la	755	teaching	teaching;
 la	756	aid	help
 la	757	advice	policy
 la	760	novel	roman
@@ -15706,7 +15702,7 @@ la	938	wheel	the wheel
 la	941	cable	rope
 la	942	aids	reinforcements
 la	946	gate	gateway
-la	948	noise	noise;
+la	948	noise	noise
 la	951	legislation	laws
 la	952	achievement	it	and
 la	957	characteristic	reason
@@ -17434,7 +17430,7 @@ mg	484	version	king james version	bible interconfessional version
 mg	485	safety	protection
 mg	486	neighborhood	community
 mg	487	act	behavior
-mg	488	troop	ꭰꭶꮈꮵ (fr)	portuguese
+mg	488	troop	chapter
 mg	490	species	type
 mg	493	sky	heaven	in heaven
 mg	495	plane	airplanes
@@ -18569,7 +18565,7 @@ ml	476	access	entrance
 ml	478	judge	the judge
 ml	479	relation	relationship
 ml	480	bird	the bird
-ml	488	troop	military (plow)	military (lock)
+ml	488	troop	military
 ml	490	species	the species
 ml	493	sky	the sky
 ml	495	plane	the flight
@@ -18812,7 +18808,7 @@ mn	142	town	city
 mn	143	road	path
 mn	144	arm	hands
 mn	146	value	meaning
-mn	147	building	building	барилга барих	construction and construction	барилгын ажил
+mn	147	building	building, construction	construction and construction
 mn	156	record	registration
 mn	159	ground	land
 mn	160	form	shape
@@ -18973,7 +18969,7 @@ mn	618	murder	killing	killed
 mn	621	review	control
 mn	626	influence	impact
 mn	627	youth	young people
-mn	628	wave	долгио	ripple	долгион	долгион ба долгион
+mn	628	wave	wave, ripple	waves and waves
 mn	629	move	moving
 mn	630	quarter	season
 mn	631	background	base
@@ -20116,7 +20112,7 @@ my	793	crew	people
 my	797	hearing	hearings
 my	800	notion	opinion
 my	802	chest	ark
-my	806	emergency	in an emergency	just in case	လိုလိုမယ်မယ်
+my	806	emergency	in an emergency	just in case
 my	812	setting	the setting
 my	813	dress	clothing
 my	815	outcome	benefit
@@ -20176,7 +20172,7 @@ my	984	prayer	my prayers	my prayer
 my	985	scholar	student
 my	986	warning	remind	remember
 my	987	climate	weather
-my	989	observation	စောငျ့ရှောကျခွငျး	safeguarding	ကာကွယ်စောင့်ရှောက်	ကာကွယ်စောင့်ရှောက်ကြည့်ရှုရန်
+my	989	observation	safeguarding
 my	992	sir	you
 my	993	cigarette	cigarettes
 my	994	definition	meaning
@@ -21660,7 +21656,7 @@ pa	480	bird	the birds
 pa	485	safety	security
 pa	486	neighborhood	nearby	near
 pa	487	act	work
-pa	488	troop	totepe (moment)	totape (moment)	totepee (moment)	totpie (moment)
+pa	488	troop	totepe	totape	totepee	totpie
 pa	495	plane	ship
 pa	496	object	unit
 pa	498	labor	hard work
@@ -21918,7 +21914,7 @@ pl	465	majority	most
 pl	483	corner	angle
 pl	485	safety	security
 pl	487	act	work	job
-pl	488	troop	military branch (en)
+pl	488	troop	military branch
 pl	498	labor	job
 pl	500	client	customer
 pl	535	spot	place
@@ -22551,7 +22547,7 @@ pt	181	phone	telephone
 pt	183	picture	scenario
 pt	186	land	earth
 pt	187	product	products
-pt	197	support	suporte	support	suporte
+pt	197	support	support, support
 pt	200	baby	drink
 pt	204	film	movie
 pt	221	plant	to plant
@@ -22690,7 +22686,7 @@ pt	851	rating	evaluation
 pt	852	motion	movement
 pt	853	gender	genre
 pt	854	fee	rate
-pt	857	frame	armação	frame	quadro	preço / info	preço / info foto search foto	preço / info foto search banco de imagensrf royalty free
+pt	857	frame	frame, frame	price/info	price/info foto search picture	price/info foto search stock photographyrf royalty free
 pt	861	row	line
 pt	865	appeal	resource
 pt	869	topic	theme
@@ -22711,7 +22707,7 @@ pt	931	faculty	college
 pt	933	mass	pasta
 pt	934	experiment	to experiment
 pt	935	bomb	pump
-pt	942	aids	assists	support	suporte	support	suporte
+pt	942	aids	assists	support	support, support
 pt	943	jew	jewish
 pt	956	taste	like	to like
 pt	957	characteristic	feature
@@ -23459,7 +23455,7 @@ sd	483	corner	cord
 sd	484	version	prescription
 sd	486	neighborhood	neighborhoods	neighbor
 sd	487	act	action
-sd	488	troop	military (bridge)
+sd	488	troop	military
 sd	490	species	caste
 sd	491	track	the way
 sd	492	hope	hope you	to hope
@@ -26497,7 +26493,7 @@ sr	240	church	the church
 sr	242	fire	the fire
 sr	243	future	the future
 sr	246	bank	the bank
-sr	249	board	табла	board	боард
+sr	249	board	board, board
 sr	250	subject	object
 sr	252	rest	holiday
 sr	256	goal	the goal
@@ -26620,7 +26616,7 @@ sr	627	youth	young
 sr	628	wave	waves
 sr	630	quarter	one quarter
 sr	637	connection	link
-sr	641	committee	board	табла	board	боард
+sr	641	committee	board	board, board
 sr	642	mistake	error
 sr	644	smile	a smile
 sr	646	clothes	the clothes
@@ -27045,7 +27041,7 @@ st	556	farm	pools	dams
 st	557	increase	apology	to apologize
 st	558	middle	in the middle
 st	559	presence	to be present
-st	562	reader	'money
+st	562	reader	money
 st	565	crowd	many
 st	566	apartment	folet
 st	567	strength	power
@@ -27131,11 +27127,11 @@ st	695	plastic	polasetic
 st	697	writing	to write
 st	699	expression	speech	language
 st	700	football	footprint	footsteps	foot steps
-st	701	chicken	throat	'roots
+st	701	chicken	throat	roots
 st	702	army	the army
 st	703	abuse	harassment
 st	704	theater	entertainment hall
-st	705	map	'map
+st	705	map	map
 st	706	session	list
 st	707	danger	risk
 st	708	literature	published
@@ -27146,7 +27142,7 @@ st	715	leaf	page
 st	716	instruction	discipline
 st	717	fight	please
 st	718	pool	dam
-st	719	lead	reader	'money
+st	719	lead	reader	money
 st	720	engine	engineer
 st	722	importance	important
 st	723	metal	iron
@@ -27672,7 +27668,7 @@ sv	315	deal	act
 sv	316	election	choice
 sv	319	bill	count
 sv	332	stage	phase
-sv	342	song	let '	let "
+sv	342	song	let	let
 sv	345	leg	bone
 sv	349	rock	stone
 sv	356	card	short
@@ -28377,7 +28373,6 @@ ta	483	corner	in the corner
 ta	484	version	edition
 ta	485	safety	security
 ta	487	act	theater
-ta	488	troop	troop (b)
 ta	489	income	earnings
 ta	491	track	on track
 ta	492	hope	i believe
@@ -28712,7 +28707,7 @@ te	475	reform	processing
 te	479	relation	in relation to the
 te	481	opinion	feedback
 te	485	safety	security
-te	488	troop	squad (call)
+te	488	troop	squad
 te	493	sky	the sky
 te	495	plane	aircraft	flights
 te	499	concept	feeling
@@ -29075,7 +29070,7 @@ tg	566	apartment	residence
 tg	567	strength	power
 tg	568	band	busy
 tg	570	target	purpose
-tg	574	reporter	"he said
+tg	574	reporter	he said
 tg	576	share	exchange
 tg	577	tool	means	it means	this means that	ки
 tg	578	vehicle	car
@@ -29094,7 +29089,7 @@ tg	599	ear	listen
 tg	600	shop	paper
 tg	601	folk	the people	people
 tg	605	claim	doom
-tg	607	critic	criticized	"he said
+tg	607	critic	criticized	he said
 tg	608	aspect	embryo
 tg	610	christmas	funny
 tg	611	comment	explain
@@ -29120,7 +29115,7 @@ tg	646	clothes	dress
 tg	648	drive	driver
 tg	651	average	general average
 tg	652	wine	vino
-tg	654	means	it means	this means that	ки
+tg	654	means	it means	this means that
 tg	655	learning	study
 tg	661	visit	edit
 tg	664	tour	travel
@@ -29151,7 +29146,7 @@ tg	727	lip	touch	hold it
 tg	729	lunch	food
 tg	730	farmer	gardeners
 tg	732	planet	traveling	travel
-tg	737	meaning	it means	this means that	ки
+tg	737	meaning	it means	this means that
 tg	738	mom	article
 tg	739	instrument	means	it means	this means that	ки
 tg	740	weather	air
@@ -29259,7 +29254,7 @@ tg	912	dish	the dish
 tg	915	opening	open
 tg	918	core	basic	basis	based	based on
 tg	919	rise	is growing
-tg	920	tie	"he said
+tg	920	tie	he said
 tg	921	holiday	feast	holidays
 tg	922	resolution	solution
 tg	925	witness	witnesses
@@ -29268,7 +29263,7 @@ tg	930	flow	streaming
 tg	932	waste	abandoned
 tg	934	experiment	test
 tg	939	female	woman
-tg	940	promise	"he said
+tg	940	promise	he said
 tg	942	aids	help
 tg	944	cream	ice cream
 tg	946	gate	darwin
@@ -29289,7 +29284,7 @@ tg	969	interaction	cooperation
 tg	973	curriculum	application
 tg	976	assistance	helps
 tg	978	lab	laboratory
-tg	980	criticism	criticized	"he said
+tg	980	criticism	criticized	he said
 tg	981	asset	assets
 tg	984	prayer	pray
 tg	985	scholar	scientist
@@ -30981,7 +30976,7 @@ vi	97	food	dish
 vi	113	college	university
 vi	114	interest	care
 vi	115	death	dead
-vi	123	development	develop	xây dựng	construction
+vi	123	development	develop	development, construction
 vi	125	effort	try	to try on
 vi	126	rate	ratio
 vi	129	show	just
@@ -31157,7 +31152,7 @@ vi	671	exercise	do exercise
 vi	675	supply	provided	be provided
 vi	678	actor	cast	casting
 vi	679	birth	born
-vi	684	progress	develop	xây dựng	construction
+vi	684	progress	develop	development, construction
 vi	688	exchange	giao dịch	transactions
 vi	697	writing	write
 vi	700	football	soccer
@@ -31187,7 +31182,6 @@ vi	787	thinking	think
 vi	789	visitor	visitors	guest
 vi	791	investor	investors
 vi	800	notion	concept
-vi	805	beauty	vẻ đẹp	beauty	vẻ đẹp
 vi	806	emergency	emergency situation	emergency case
 vi	807	stress	emphasize
 vi	809	root	source
@@ -31226,7 +31220,7 @@ vi	890	wing	soup
 vi	892	judgment	judgement	decision
 vi	894	english	brother
 vi	895	reference	references
-vi	898	minister	mục sư	pastor	mục sư	pastor
+vi	898	minister	minister, pastor	pastor, pastor
 vi	904	seed	seeds
 vi	911	vegetable	vegetables
 vi	913	beach	seaside	beside sea	by the sea	near sea
@@ -31245,7 +31239,7 @@ vi	957	characteristic	featured
 vi	959	sentence	judge
 vi	961	physician	doctor
 vi	963	ride	ride the bycicle	drive a bicycle
-vi	968	alternative	instead of	thay vì thay thế
+vi	968	alternative	instead of, replace	instead of replacing
 vi	973	curriculum	education program
 vi	976	assistance	support
 vi	977	association	combination
