@@ -17,7 +17,7 @@ var mpi = Math.PI; // Math.PI
 var hpi = mpi / 2;
 // Settings  ============================
 
-var radius_increment = 5; // radius-increment per round (point)
+var radius_increment = 3; // radius-increment per round (point)
 
 var uzu_angle = 15 /180 * mpi; // unit of rounding angle (radian)
 
